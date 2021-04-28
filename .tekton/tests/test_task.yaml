@@ -95,7 +95,7 @@ spec:
   - name: task-pvc
     mountPath: /artifacts            
   steps:
-    - name: run-api-tests
+    - name: run-e2e-test-2
       image: ibmcom/pipeline-base-image
       command: ["/bin/bash", "-c"]
       args:
