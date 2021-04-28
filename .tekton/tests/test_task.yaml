@@ -36,7 +36,7 @@ spec:
         - set -e -o pipefail;
           echo "running test 3";
           echo "done!"
-    - name: run-e2e-test-3
+    - name: run-e2e-test-4
       image: ibmcom/pipeline-base-image
       command: ["/bin/bash", "-c"]
       args:
